@@ -1,5 +1,5 @@
 {
-  "name": "project-risk-visualizer",
+  "name": "pre-mortem",
   "version": "0.1.0",
   "description": "The Exit Simulator: A satirical startup physics game",
   "main": "dist/unicorn-jenga.umd.js",

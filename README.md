@@ -2,88 +2,81 @@
 
 > *"Optimism is a bug. Physics is the feature."*
 
-**Pre-Mortem** is a deterministic simulation engine designed to visualize the structural integrity of high-growth organizations. By mapping "Technical Debt" and "Venture Capital Hype" to Matter.js physics bodies, we provide stakeholders with a realistic forecast of the inevitable entropy.
+**Pre-Mortem** is a deterministic simulation engine designed to quantify the structural integrity of high-growth organizations. By mapping technical debt, venture capital hype, and organizational friction to Matter.js physics bodies, we provide stakeholders with a high-fidelity forecast of institutional entropy.
 
-(日本語: これは「御社の崩壊」を物理演算でシミュレートするための、高度に不謹慎な教育的ツールです)
+## Use Case (Operational Objectives)
 
-## Use Case (Why install this?)
-
-* **For Engineers:** Visualize why "adding AI" to a spaghetti codebase will cause a segmentation fault in reality.
-* **For PMs:** A hands-on demonstration of why "Feature Creep" scales linearly with "Gravity."
-* **For Founders:** An anxiety simulator to practice the "Exit" timing before the runway hits zero.
+* **For Engineers:** Empirically visualize why adding "Generative AI" to a fragile foundation results in immediate structural collapse.
+* **For Product Managers:** A tactical demonstration of how feature creep scales linearly with institutional gravity.
+* **For Founders:** A high-stakes anxiety simulator to optimize exit timing before the runway reaches terminal velocity.
 
 ## Architecture (The Metaphors)
 
-The simulation consists of three core primitives:
+The simulation utilizes three core primitives to model corporate reality:
 
-### 1. The Foundation (Legacy & Work)
+### 1. The Foundation (Legacy & Infrastructure)
 
 * **Attributes:** High Density, High Friction, Zero Restitution.
-* **Examples:** Refactoring, Unit Tests, Compliance, Bug Fixes.
-* **Behavior:** Boring, heavy, and essential. Without these, your valuation means nothing.
+* **Components:** Refactoring, Unit Testing, Compliance, Infrastructure.
+* **Dynamics:** Essential yet heavy. Without a stable base, capitalization metrics are irrelevant.
 
-### 2. The Growth Factors (Hype & Noise)
+### 2. The Growth Factors (Capital & Hype)
 
-* **Attributes:** Low Density, High Bounciness, Irregular Geometry.
-* **Examples:** GenAI, Web3, Pivot, Thought Leadership.
-* **Behavior:** Rapidly increases vertical valuation but introduces catastrophic structural instability.
+* **Attributes:** Low Density, High Elasticity, Asymmetric Geometry.
+* **Components:** Strategic Pivots, Thought Leadership, Market Noise.
+* **Dynamics:** Rapidly inflates vertical valuation while introducing catastrophic center-of-gravity shifts.
 
-### 3. Human Capital Friction (The "Culture")
+### 3. Organizational Friction (Culture)
 
-* **Dead Wood:** Objects that consume runway (space) but provide zero structural support.
-* **Toxic Agents:** The Slacker (Slippery), The Prima Donna (Oddly shaped), The Control Freak (Micromanages physics).
+* **Dead Wood:** Inert hulls that consume space and runway without contributing to structural support.
+* **Toxic Agents:** The Slacker (Zero friction), The Prima Donna (Hostile geometry), The Control Freak (Unpredictable impulse vectors).
 
-## Quick Start (Deployment)
+## Quick Start
 
-### Method A: The "Shadow IT" Integration (NPM)
+### Library Integration
 
-Install it secretly into your internal dashboard.
+Integrate the simulation into your corporate dashboard for "educational" purposes.
 
 ```bash
-npm install project-risk-visualizer
+npm install pre-mortem
 ```
 
 ```typescript
-import { PreMortem } from 'project-risk-visualizer';
+import { PreMortem } from 'pre-mortem';
 
-// Trigger this on a hidden Konami code or 404 page
 const simulation = new PreMortem(document.body, {
-  logoUrl: "/api/v1/assets/logo.png", // <--- REPLACE THIS
+  logoUrl: "/api/assets/corporate-logo.png",
   initialRunway: 5000000,
   stages: [
-    { name: 'Seed', threshold: 0, burnRate: 2000 },
-    { name: 'IPO', threshold: 1000000000, burnRate: 500000 }
+    { name: 'Seed Phase', threshold: 0, burnRate: 2000 },
+    { name: 'Terminal Growth', threshold: 1000000000, burnRate: 500000 }
   ]
 });
 
 simulation.start();
 ```
 
-### Method B: Standalone Hosting (Docker)
-
-Perfect for hosting at http://internal-tools/strategy.
+### Standalone Deployment
 
 ```bash
 git clone https://github.com/your-org/pre-mortem.git
 cd pre-mortem
-# Edit src/game.ts to match your company's actual burn rate
 npm install
 npm run dev
 ```
 
-## Chaos Events (Roadmap)
+## Chaos Events (Stochastic Crises)
 
-The engine includes stochastic market events to test organizational resilience:
+The engine monitors valuation thresholds to trigger real-world market stressors:
 
-* **Strategic Pivot**: Gravity vector randomizes due to sudden CEO intervention.
-* **The Big Reorg**: All friction is temporarily set to 0. Objects slide uncontrollably.
-* **Legacy Deprecation**: Randomly ghost base blocks to simulate technical debt realization.
+* **Strategic Pivot**: CEO intervention causes a temporary localized gravity shift.
+* **The Big Reorg**: Friction is zeroed across all human capital assets.
+* **Market Shockwave**: High-impulse forces applied to specialized structural nodes.
 
 ## Contributing
 
-Pull requests are welcome. Please ensure all new "Hype Blocks" have a density lower than 0.001.
-If you are from HR, please close this tab immediately.
+Technical contributions are welcome. Please ensure all new hype-based blocks have a density less than 0.001 to maintain institutional realism.
 
 ## License
 
-ISC. Use at your own career risk.
+ISC. Implement at your own career risk.

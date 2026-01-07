@@ -1,6 +1,6 @@
 {
   "name": "pre-mortem",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "The Exit Simulator: A satirical startup physics game",
   "main": "dist/pre-mortem.umd.js",
   "module": "dist/pre-mortem.mjs",
@@ -17,7 +17,9 @@
     "matter-js"
   ],
   "files": [
-    "dist",
+    "dist/pre-mortem.mjs",
+    "dist/pre-mortem.umd.js",
+    "dist/*.png",
     "README.md",
     "LICENSE"
   ],

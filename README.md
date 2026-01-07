@@ -50,7 +50,7 @@ import { PreMortem } from 'pre-mortem';
 
 const simulation = new PreMortem(document.body, {
   logoUrl: "/api/assets/corporate-logo.png",
-  initialRunway: 5000000,
+  initialRunway: 200000,
   stages: [
     { name: 'Seed Phase', threshold: 0, burnRate: 2000 },
     { name: 'Series A', threshold: 100000000, burnRate: 10000, fundingBonus: 250000 },

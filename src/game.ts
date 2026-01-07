@@ -285,7 +285,7 @@ export class UnicornJengaGame {
       switch (eventId) {
           case 0:
               this.onCrisis?.("STRATEGIC PIVOT", "CEO: 'We are pivoting to AI!' (Gravity Shift)");
-              this.engine.world.gravity.x = 0.5;
+              this.engine.world.gravity.x = 0.2; // Reduced from 0.5 as requested
               setTimeout(() => { this.engine.world.gravity.x = 0; }, 5000);
               break;
           case 1:

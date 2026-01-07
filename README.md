@@ -53,7 +53,12 @@ const simulation = new PreMortem(document.body, {
   initialRunway: 5000000,
   stages: [
     { name: 'Seed Phase', threshold: 0, burnRate: 2000 },
-    { name: 'Terminal Growth', threshold: 1000000000, burnRate: 500000 }
+    { name: 'Series A', threshold: 100000000, burnRate: 10000, fundingBonus: 250000 },
+    { name: 'Series B', threshold: 250000000, burnRate: 25000, fundingBonus: 500000 },
+    { name: 'Series C', threshold: 500000000, burnRate: 50000, fundingBonus: 1000000 },
+    { name: 'Series D', threshold: 700000000, burnRate: 75000, fundingBonus: 2000000 },
+    { name: 'Series E', threshold: 850000000, burnRate: 100000, fundingBonus: 5000000 },
+    { name: 'Unicorn Status', threshold: 1000000000, burnRate: 150000, fundingBonus: 10000000 }
   ]
 });
 

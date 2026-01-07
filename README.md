@@ -1,7 +1,5 @@
 # Project Pre-Mortem: Enterprise Risk Visualization
 
-![Pre-Mortem Icon](https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/pre-mortem-icon.png)
-
 > *"Optimism is a bug. Physics is the feature."*
 
 [![Watch the Pre-Mortem Demonstration](https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/pre-mortem-icon.png)](https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/pre-mortem.mp4)

@@ -12,7 +12,7 @@ export interface GameConfig {
   chaosInterval?: number; // in ms
 }
 
-export class UnicornJengaGame {
+export class PreMortemGame {
   private engine: Matter.Engine;
   private render: Matter.Render;
   private runner: Matter.Runner;

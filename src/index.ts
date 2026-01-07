@@ -1,12 +1,12 @@
-import { UnicornJengaGame, GameConfig } from './game';
+import { PreMortemGame, GameConfig } from './game';
 import { UIManager } from './ui';
 
-export class UnicornJenga {
-  private game: UnicornJengaGame;
+export class PreMortem {
+  private game: PreMortemGame;
   private ui: UIManager;
 
   constructor(container: HTMLElement, config: GameConfig = {}) {
-    this.game = new UnicornJengaGame(container, {
+    this.game = new PreMortemGame(container, {
         ...config,
         onCrisis: (shout, desc) => this.ui.showCrisisAlert(shout, desc)
     });
@@ -27,4 +27,4 @@ export class UnicornJenga {
 }
 
 // Export parts if needed directly
-export { UnicornJengaGame, UIManager };
+export { PreMortemGame, UIManager };

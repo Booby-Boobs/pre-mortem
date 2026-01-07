@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unicorn Jenga - The Exit Simulator</title>
+    <title>Pre-Mortem - The Exit Simulator</title>
     <style>
       body {
         margin: 0;
@@ -23,12 +23,12 @@
   <body>
     <div id="app"></div>
     <script type="module">
-      import { UnicornJenga } from './src/index.ts';
+      import { PreMortem } from './src/index.ts';
 
       const app = document.getElementById('app');
       // Example Logo: using a placeholder or local asset
       // For demo, we leave it empty or use a placeholder
-      const game = new UnicornJenga(app, {
+      const game = new PreMortem(app, {
         logoUrl: './logo.png', // Local logo
         width: window.innerWidth,
         height: window.innerHeight

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unicorn Jenga - The Exit Simulator</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+        color: #fff;
+        font-family: sans-serif;
+        overflow: hidden;
+      }
+      #app {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      import { UnicornJenga } from './src/index.ts';
+
+      const app = document.getElementById('app');
+      // Example Logo: using a placeholder or local asset
+      // For demo, we leave it empty or use a placeholder
+      const game = new UnicornJenga(app, {
+        logoUrl: './logo.png', // Local logo
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+      game.start();
+    </script>
+  </body>
+</html>

@@ -1,10 +1,10 @@
 # Project Pre-Mortem: Enterprise Risk Visualization
 
+![Pre-Mortem Icon](https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/pre-mortem-icon.png)
+
 > *"Optimism is a bug. Physics is the feature."*
 
-[![Watch the Pre-Mortem Demonstration](https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/pre-mortem-icon.png)](https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/pre-mortem.mp4)
-
-*(Click the image above to watch the simulation in action)*
+![Pre-Mortem Demonstration](https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/pre-mortem.gif)
 
 **Pre-Mortem** is a deterministic simulation engine designed to quantify the structural integrity of high-growth organizations. By mapping technical debt, venture capital hype, and organizational friction to Matter.js physics bodies, we provide stakeholders with a high-fidelity forecast of institutional entropy.
 

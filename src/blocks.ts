@@ -143,12 +143,13 @@ export const createBlock = (x: number, y: number, type: BlockType) => {
              type === BlockType.QUIET_QUITTER || 
              type === BlockType.SLACK_SPAMMER) {
       
+      const BASE_URL = 'https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/';
       const textureMap: Record<string, string> = {
-          [BlockType.SLACKER]: './slacker.png',
-          [BlockType.CONTROL_FREAK]: './control-freak.png',
-          [BlockType.PRIMA_DONNA]: './prima-donna.png',
-          [BlockType.QUIET_QUITTER]: './quet-quitter.png', // User typo kept
-          [BlockType.SLACK_SPAMMER]: './slack-spammer.png'
+          [BlockType.SLACKER]: `${BASE_URL}slacker.png`,
+          [BlockType.CONTROL_FREAK]: `${BASE_URL}control-freak.png`,
+          [BlockType.PRIMA_DONNA]: `${BASE_URL}prima-donna.png`,
+          [BlockType.QUIET_QUITTER]: `${BASE_URL}quet-quitter.png`,
+          [BlockType.SLACK_SPAMMER]: `${BASE_URL}slack-spammer.png`
       };
 
       const spriteOptions = {

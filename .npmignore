@@ -1,0 +1,15 @@
+# Exclude source code
+src/
+tsconfig.json
+vite.config.ts
+
+# Exclude large media
+**/*.mp4
+**/*.gif
+**/*.mov
+**/*.png
+
+# Exclude dev-only files
+index.html
+
+# We will explicitly include what we need in package.json 'files'

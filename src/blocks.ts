@@ -143,7 +143,7 @@ export const createBlock = (x: number, y: number, type: BlockType) => {
              type === BlockType.QUIET_QUITTER || 
              type === BlockType.SLACK_SPAMMER) {
       
-      const BASE_URL = 'https://raw.githubusercontent.com/Booby-Boobs/pre-mortem/main/public/';
+      const BASE_URL = 'https://raw.githubusercontent.com/Booby-Boobs/Pre-Mortem/main/public/';
       const textureMap: Record<string, string> = {
           [BlockType.SLACKER]: `${BASE_URL}slacker.png`,
           [BlockType.CONTROL_FREAK]: `${BASE_URL}control-freak.png`,

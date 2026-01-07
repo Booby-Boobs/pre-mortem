@@ -2,8 +2,8 @@
   "name": "pre-mortem",
   "version": "0.1.0",
   "description": "The Exit Simulator: A satirical startup physics game",
-  "main": "dist/unicorn-jenga.umd.js",
-  "module": "dist/unicorn-jenga.mjs",
+  "main": "dist/pre-mortem.umd.js",
+  "module": "dist/pre-mortem.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",

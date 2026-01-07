@@ -313,23 +313,23 @@ export class UIManager {
          <strong style="color: #ff4444; font-size: 13px;">TOXIC (Risk: 1/15)</strong>
          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 5px;">
             <div class="uj-legend-mini">
-                <img src="./slacker.png" style="width: 30px; height: auto;">
+                <img src="https://raw.githubusercontent.com/Booby-Boobs/Pre-Mortem/main/public/slacker.png" style="width: 30px; height: auto;">
                 <span>Slacker</span>
             </div>
             <div class="uj-legend-mini">
-                <img src="./control-freak.png" style="width: 30px; height: auto;">
+                <img src="https://raw.githubusercontent.com/Booby-Boobs/Pre-Mortem/main/public/control-freak.png" style="width: 30px; height: auto;">
                 <span>Control Freak</span>
             </div>
             <div class="uj-legend-mini">
-                <img src="./prima-donna.png" style="width: 30px; height: auto;">
+                <img src="https://raw.githubusercontent.com/Booby-Boobs/Pre-Mortem/main/public/prima-donna.png" style="width: 30px; height: auto;">
                 <span>Prima Donna</span>
             </div>
             <div class="uj-legend-mini">
-                <img src="./quet-quitter.png" style="width: 30px; height: auto;">
+                <img src="https://raw.githubusercontent.com/Booby-Boobs/Pre-Mortem/main/public/quet-quitter.png" style="width: 30px; height: auto;">
                 <span>Quiet Quitter</span>
             </div>
             <div class="uj-legend-mini">
-                <img src="./slack-spammer.png" style="width: 30px; height: auto;">
+                <img src="https://raw.githubusercontent.com/Booby-Boobs/Pre-Mortem/main/public/slack-spammer.png" style="width: 30px; height: auto;">
                 <span>Spammer</span>
             </div>
          </div>

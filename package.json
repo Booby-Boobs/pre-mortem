@@ -1,6 +1,6 @@
 {
   "name": "pre-mortem",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Exit Simulator: A satirical startup physics game",
   "main": "dist/pre-mortem.umd.js",
   "module": "dist/pre-mortem.mjs",
@@ -18,6 +18,10 @@
   ],
   "author": "Boobs",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Booby-Boobs/pre-mortem.git"
+  },
   "dependencies": {
     "matter-js": "^0.20.0"
   },
